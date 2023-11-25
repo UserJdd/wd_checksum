@@ -10,14 +10,11 @@
       "email": "23378339@qq.com"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {
-    "jdd/wd_checksum": "1.0.0"
-  },
+  "minimum-stability": "stable",
+  "prefer-stable": false,
   "autoload":{
     "psr-4":{
-      "Jdd\\":"src"
+      "Jdd\\":"src/"
     }
   }
 }
