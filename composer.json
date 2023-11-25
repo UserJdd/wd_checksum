@@ -1,0 +1,22 @@
+{
+  "name": "jdd/wd_checksum",
+  "description": "A checksum library for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jdd",
+      "email": "23378339@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jdd\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
