@@ -17,10 +17,6 @@
       "Jdd\\": "src/"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/UserJdd/wd_checksum.git"
-    }
-  ]
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
