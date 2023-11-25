@@ -1,0 +1,21 @@
+{
+  "name": "jdd/wd_checksum",
+  "description": "wd_checksum",
+  "version": "1.0.3",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jdd",
+      "email": "23378339@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {},
+  "autoload":{
+    "psr-4":{
+      "Jdd\\":"src"
+    }
+  }
+}
