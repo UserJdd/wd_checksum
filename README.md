@@ -9,8 +9,8 @@ composer require jdd/wd_checksum:@dev
 2. 引用
 
 ```php
-
-require __DIR__ . '/vendor/autoload.php';#这个autoload.php是这个包内生成的那个
+<?php
+require __DIR__ . '/vendor/autoload.php';
 
 use Jdd\Checksum;
 
