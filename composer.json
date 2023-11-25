@@ -1,7 +1,7 @@
 {
   "name": "jdd/wd_checksum",
   "description": "wd_checksum",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -13,7 +13,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "jdd/wd_checksum": "^1.0"
+    "jdd/wd_checksum": "1.0.0"
   },
   "autoload":{
     "psr-4":{
