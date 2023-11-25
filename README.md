@@ -14,7 +14,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Jdd\Checksum;
 
-echo  Checksum::get_email_checksum('1');
+echo  Checksum::get_data_checksum('1');
 ```
 3. 更新
 
