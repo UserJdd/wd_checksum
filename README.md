@@ -1,5 +1,5 @@
 # wd_checksum
-checksum
+checksum计算问道数据库校验和
 
 #### 开始
 1. composer安装
