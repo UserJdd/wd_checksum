@@ -10,7 +10,7 @@
       "email": "23378339@qq.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "php": "^7.2"
