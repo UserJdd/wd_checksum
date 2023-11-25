@@ -10,8 +10,6 @@
       "email": "23378339@qq.com"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "require": {
     "php": ">=7.2.0 || ^8.0"
   },
@@ -19,5 +17,14 @@
     "psr-4": {
       "Jdd\\": "src/"
     }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/UserJdd/wd_checksum.git"
+    }
+  ],
+  "require": {
+    "jdd/wd_checksum": "1.0.0"
   }
 }
