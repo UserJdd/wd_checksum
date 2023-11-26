@@ -10,7 +10,6 @@ class Checksum
     {
         $a = 1 & 65535;
         $b = (1 >> 16) & 65535;
-        $data = iconv('utf-8', 'gb2312//IGNORE', $data);
         $arr = str_split(bin2hex($data), 2);
         foreach ($arr as $i) {
             $a = ($a + hexdec($i)) % 65521;
